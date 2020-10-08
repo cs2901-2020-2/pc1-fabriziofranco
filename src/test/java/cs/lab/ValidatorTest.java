@@ -21,14 +21,16 @@ public class ValidatorTest {
 
     @Test(invocationCount = 100, threadPoolSize = 100)
     public void testCase1() throws Exception {
-
+        Validator validator = new Validator(false);
+        validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
     }
 
 
 
     @Test(expectedExceptions = IncorrectFormatException.class)
     public void testIncorrectFormat () throws Exception{
-        Validator validator = new Validator();
+        Validator validator = new Validator(false);
+        validator.nextClass("ZZ","url/adas");
     }
 
 }

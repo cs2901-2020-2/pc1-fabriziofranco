@@ -10,7 +10,15 @@ public class Validator extends Observable {
     Sujeto descriptionObserver,urlObserver;
     Url url;
     static final Logger logger = Logger.getLogger(Validator.class.getName());
-    public Validator(){
+    public Validator(Boolean fromconsole){
+        if(fromconsole) {
+            String nombre;
+            logger.info("Bienvenido a RegistroApp, ingrese a su nombre:");
+            Scanner input = new Scanner(System.in);
+            nombre = input.nextLine();
+            logger.info("Acceso concedido, Profesor " + nombre);
+        }
+
         description = new Description();
         url = new Url();
 
@@ -24,15 +32,5 @@ public class Validator extends Observable {
     public void nextClass(String _description,String _url) throws IncorrectFormatException{
         description.validate(_description);
         url.validate(_url);
-    }
-
-
-    public static void main(String[] args) {
-        String nombre;
-        logger.info("Bienvenido a RegistroApp, ingrese a su nombre:");
-        Scanner input = new Scanner(System.in);
-        nombre=input.nextLine();
-        logger.info("Acceso concedido, Profesor "+input);
-        Validator profesor= new Validator();
     }
 }
