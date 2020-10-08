@@ -9,18 +9,18 @@ public class Description extends Observable {
     }
 
 
-    private Boolean checkDescription(String _descripcion){
+    private Boolean checkDescription(String descripcion1){
         //System.out.println(info.matches("\\d{4}-I|II (.*) (ES|EN) (.*), \\d{1}, Semana\\d{2}, (.*), \\d{2}/\\d{2} \\d{2}:\\d{2}-\\d{2}:\\d{2} ( Teoria| Laboratorio)"));
         //Intento fallido
 
-        return (_descripcion.equals("Good Format"));
+        return (descripcion1.equals("Good Format"));
     }
 
 
 
-    public void validate(String _description) throws IncorrectFormatException{
-        if(checkDescription(_description)){
-            description =_description;
+    public void validate(String descripcion1) throws IncorrectFormatException{
+        if(checkDescription(descripcion1)){
+            description =descripcion1;
             setChanged();
             notifyObservers(description);
         }

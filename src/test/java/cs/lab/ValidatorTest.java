@@ -26,11 +26,16 @@ public class ValidatorTest {
     }
 
 
-
     @Test(expectedExceptions = IncorrectFormatException.class)
     public void testIncorrectFormat () throws Exception{
         Validator validator = new Validator(false);
         validator.nextClass("ZZ","url/adas");
+    }
+
+    @Test
+    public void testCase2() throws IncorrectFormatException{
+        Validator validator = new Validator(true);
+        validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
     }
 
 }

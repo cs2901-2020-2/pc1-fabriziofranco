@@ -29,8 +29,8 @@ public class Validator extends Observable {
         url.addObserver(urlObserver);
     }
 
-    public void nextClass(String _description,String _url) throws IncorrectFormatException{
-        description.validate(_description);
-        url.validate(_url);
+    public void nextClass(String descripcion1,String url1) throws IncorrectFormatException{
+        description.validate(descripcion1);
+        url.validate(url1);
     }
 }

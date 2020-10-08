@@ -13,9 +13,9 @@ public class Url extends Observable {
         return (_url.indexOf("https://utec.zoom.us/rec/share/")==0);
     }
 
-    public void validate(String _description) throws IncorrectFormatException{
-        if(checkUrl(_description)){
-            url =_description;
+    public void validate(String url1) throws IncorrectFormatException{
+        if(checkUrl(url1)){
+            url =url1;
             setChanged();
             notifyObservers(url);
         }
