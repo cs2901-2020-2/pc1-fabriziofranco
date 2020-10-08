@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cs.lab.ValidatorTest
 -------------------------------------------------------------------------------
-Tests run: 102, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.555 sec <<< FAILURE!
-testCase2(cs.lab.ValidatorTest)  Time elapsed: 0.003 sec  <<< FAILURE!
-cs.lab.IncorrectFormatException: Revise su formato
-	at cs.lab.Description.validate(Description.java:25)
-	at cs.lab.Validator.nextClass(Validator.java:33)
-	at cs.lab.ValidatorTest.testCase2(ValidatorTest.java:38)
-
+Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.519 sec

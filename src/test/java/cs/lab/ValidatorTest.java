@@ -38,6 +38,4 @@ public class ValidatorTest {
         validator.nextClass("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio","https://utec.zoom.us/rec/share/Try");
     }
 
-
-
 }
