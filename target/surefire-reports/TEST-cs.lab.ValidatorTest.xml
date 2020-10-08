@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="102" failures="0" name="cs.lab.ValidatorTest" time="0.17" errors="0" skipped="0">
+<testsuite tests="102" failures="1" name="cs.lab.ValidatorTest" time="0.637" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/>
@@ -61,42 +61,93 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.004"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.005"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.006"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.006"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.007"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.008"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.009"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.01"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.011"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
@@ -106,61 +157,16 @@
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.002"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
   <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0.001"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase1" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testCase2" time="0"/>
-  <testcase classname="cs.lab.ValidatorTest" name="testIncorrectFormat" time="0.001"/>
+  <testcase classname="cs.lab.ValidatorTest" name="testCase2" time="0.003">
+    <failure message="Revise su formato" type="cs.lab.IncorrectFormatException">cs.lab.IncorrectFormatException: Revise su formato
+	at cs.lab.Description.validate(Description.java:25)
+	at cs.lab.Validator.nextClass(Validator.java:33)
+	at cs.lab.ValidatorTest.testCase2(ValidatorTest.java:38)
+</failure>
+  </testcase>
+  <testcase classname="cs.lab.ValidatorTest" name="testIncorrectFormat" time="0"/>
 </testsuite>

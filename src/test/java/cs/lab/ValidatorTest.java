@@ -22,7 +22,7 @@ public class ValidatorTest {
     @Test(invocationCount = 100, threadPoolSize = 100)
     public void testCase1() throws Exception {
         Validator validator = new Validator(false);
-        validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
+        validator.nextClass("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio","https://utec.zoom.us/rec/share/Try");
     }
 
 
@@ -35,7 +35,7 @@ public class ValidatorTest {
     @Test
     public void testCase2() throws IncorrectFormatException{
         Validator validator = new Validator(false);
-        validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
+        validator.nextClass("2020-II CS2901 ES Ingeniería de Software I, 1, Semana05, Jesus Bellido, 10/08 08:00-10:00 Laboratorio","https://utec.zoom.us/rec/share/Try");
     }
 
 

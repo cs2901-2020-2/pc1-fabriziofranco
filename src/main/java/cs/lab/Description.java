@@ -10,10 +10,7 @@ public class Description extends Observable {
 
 
     private Boolean checkDescription(String descripcion1){
-        //System.out.println(info.matches("\\d{4}-I|II (.*) (ES|EN) (.*), \\d{1}, Semana\\d{2}, (.*), \\d{2}/\\d{2} \\d{2}:\\d{2}-\\d{2}:\\d{2} ( Teoria| Laboratorio)"));
-        //Intento fallido
-
-        return (descripcion1.equals("Good Format"));
+        return descripcion1.matches("\\d{4}-(I|II) (.*) (ES|EN) (.*), \\d{1}, Semana\\d{2}, (.*), \\d{2}/\\d{2} \\d{2}:\\d{2}-\\d{2}:\\d{2} (Teoria|Laboratorio)");
     }
 
 
