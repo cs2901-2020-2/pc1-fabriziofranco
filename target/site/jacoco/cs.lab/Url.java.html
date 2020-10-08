@@ -13,9 +13,9 @@ public class Url extends Observable {
 <span class="pc bpc" id="L13" title="1 of 2 branches missed.">        return (_url.indexOf(&quot;https://utec.zoom.us/rec/share/&quot;)==0);</span>
     }
 
-    public void validate(String _description) throws IncorrectFormatException{
-<span class="pc bpc" id="L17" title="1 of 2 branches missed.">        if(checkUrl(_description)){</span>
-<span class="fc" id="L18">            url =_description;</span>
+    public void validate(String url1) throws IncorrectFormatException{
+<span class="pc bpc" id="L17" title="1 of 2 branches missed.">        if(checkUrl(url1)){</span>
+<span class="fc" id="L18">            url =url1;</span>
 <span class="fc" id="L19">            setChanged();</span>
 <span class="fc" id="L20">            notifyObservers(url);</span>
         }

@@ -11,10 +11,10 @@ public class Validator extends Observable {
     Url url;
 <span class="fc" id="L12">    static final Logger logger = Logger.getLogger(Validator.class.getName());</span>
 <span class="fc" id="L13">    public Validator(Boolean fromconsole){</span>
-<span class="pc bpc" id="L14" title="1 of 2 branches missed.">        if(fromconsole) {</span>
+<span class="fc bfc" id="L14" title="All 2 branches covered.">        if(fromconsole) {</span>
+<span class="fc" id="L15">            logger.info(&quot;Bienvenido a RegistroApp, ingrese a su nombre:&quot;);</span>
+<span class="fc" id="L16">            Scanner input = new Scanner(System.in);</span>
             String nombre;
-<span class="nc" id="L16">            logger.info(&quot;Bienvenido a RegistroApp, ingrese a su nombre:&quot;);</span>
-<span class="nc" id="L17">            Scanner input = new Scanner(System.in);</span>
 <span class="nc" id="L18">            nombre = input.nextLine();</span>
 <span class="nc" id="L19">            logger.info(&quot;Acceso concedido, Profesor &quot; + nombre);</span>
         }
@@ -29,9 +29,9 @@ public class Validator extends Observable {
 <span class="fc" id="L29">        url.addObserver(urlObserver);</span>
 <span class="fc" id="L30">    }</span>
 
-    public void nextClass(String _description,String _url) throws IncorrectFormatException{
-<span class="fc" id="L33">        description.validate(_description);</span>
-<span class="fc" id="L34">        url.validate(_url);</span>
+    public void nextClass(String descripcion1,String url1) throws IncorrectFormatException{
+<span class="fc" id="L33">        description.validate(descripcion1);</span>
+<span class="fc" id="L34">        url.validate(url1);</span>
 <span class="fc" id="L35">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

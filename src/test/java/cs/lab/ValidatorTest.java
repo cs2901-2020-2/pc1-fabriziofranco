@@ -38,4 +38,6 @@ public class ValidatorTest {
         validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
     }
 
+
+
 }
