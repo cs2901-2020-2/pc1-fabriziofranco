@@ -34,7 +34,7 @@ public class ValidatorTest {
 
     @Test
     public void testCase2() throws IncorrectFormatException{
-        Validator validator = new Validator(true);
+        Validator validator = new Validator(false);
         validator.nextClass("Good Format","https://utec.zoom.us/rec/share/Try");
     }
 

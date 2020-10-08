@@ -12,9 +12,9 @@ public class Validator extends Observable {
     static final Logger logger = Logger.getLogger(Validator.class.getName());
     public Validator(Boolean fromconsole){
         if(fromconsole) {
-            String nombre;
             logger.info("Bienvenido a RegistroApp, ingrese a su nombre:");
             Scanner input = new Scanner(System.in);
+            String nombre;
             nombre = input.nextLine();
             logger.info("Acceso concedido, Profesor " + nombre);
         }
